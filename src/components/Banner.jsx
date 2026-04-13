@@ -1,9 +1,17 @@
 "use client";
+import { useRouter } from 'next/navigation';
 import React from 'react';
 
 const Banner = () => {
+    const router=useRouter();
+
     const handleBtn=()=>{
-        alert("Clicked");
+        const password=prompt("Ener Your Password");
+        
+        if(password=="1234"){
+            console.log(router);
+            router.push("/dashboard");
+        }
     }
     return (
         <div className='text-center space-y-5 bg-linear-60 from-gray-500 to-blue-500 text-black p-10 rounded-2xl'>

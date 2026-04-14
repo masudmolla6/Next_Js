@@ -7,6 +7,7 @@ const Header = () => {
           <Link href="/" className="text-lg">😊 Dev Storey</Link>
           <nav className='space-x-2'>
             <Link href="/">Home</Link>
+            <Link href="/stories">Stories</Link>
             <Link href="/about">About</Link>
             <Link href="/tutorials">Tutorials</Link>
             <Link href="/login">Login</Link>

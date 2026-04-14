@@ -1,7 +1,7 @@
 import Title from '@/components/Title';
 import React from 'react';
 
-const page = () => {
+const Dashboard = () => {
     return (
         <div>
             <Title>Welcome to our dashboard 🛅</Title>
@@ -9,4 +9,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Dashboard;
